@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>MPG Dataset Transformation</title>
+	<meta name="description" content="MPG Dataset Transformation">
+	<meta name="author" content="Sandra Ezidiegwu">
+	<meta name="generator" content="slidify" />
+	
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/html5slides/default/styles.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />  <link rel="stylesheet" href = "assets/css/ribbons.css">
+  
+</head>
+<body style='display: none'>
+	<section class='slides layout-regular template-regular'>
+     <article class="" id="slide-1" style="background:;">
+  <h3>Rental Car Use made Simple</h3>
+  <p>With the use of this app, one can easily navigate through their preferred rental car choices. </p>
+
+<pre><code class="r">library(shiny)
+library(ggplot2)
+library(dplyr)
+car.options &lt;- select(mpg, manufacturer, model, year, cty, hwy, class)
+head(car.options) 
+</code></pre>
+
+<pre><code>## Source: local data frame [6 x 6]
+## 
+##   manufacturer model  year   cty   hwy   class
+##          (chr) (chr) (int) (int) (int)   (chr)
+## 1         audi    a4  1999    18    29 compact
+## 2         audi    a4  1999    21    29 compact
+## 3         audi    a4  2008    20    31 compact
+## 4         audi    a4  2008    21    30 compact
+## 5         audi    a4  1999    16    26 compact
+## 6         audi    a4  1999    18    26 compact
+</code></pre>
+
+</article>
+
+<article class="custom" id="slide-2" style="background:;">
+  <h3>NA</h3>
+  <p>Often times you find that you are stuck with car options that don&#39;t necessarily fit you need</p>
+
+<p><img src="http://cdn.moneycrashers.com/wp-content/uploads/2014/07/zipcar-cars.png" alt="Car Rental Figure"></p>
+
+</article>
+
+
+<p>With this app you would realize the following;</p>
+
+<ul>
+<li>Ease of access to car options</li>
+<li>Peace of mind in car renting</li>
+<li>Reduced wait at rental shop</li>
+</ul>
+
+<p>All these great benefits at the click of your mouse at home!</p>
+
+<article class="custom" id="slide-4" style="background:;">
+  <h3>NA</h3>
+  <p>The simple design of this app makes it easy to follow</p>
+
+<ul>
+<li>With just two slider buttons </li>
+<li>A drop down choice menu </li>
+</ul>
+
+<p>It&#39;s never been this easy!</p>
+
+<pre><code class="r">library(png)
+</code></pre>
+
+<pre><code>## Error in library(png): there is no package called &#39;png&#39;
+</code></pre>
+
+<pre><code class="r">img &lt;- readPNG(&quot;/Users/sandraezidiegwu/Desktop/shinyapp.png&quot;)
+</code></pre>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;readPNG&quot;
+</code></pre>
+
+<pre><code class="r">grid.raster(img)
+</code></pre>
+
+<pre><code>## Error in eval(expr, envir, enclos): could not find function &quot;grid.raster&quot;
+</code></pre>
+
+</article>
+
+<article class="custom" id="slide-5" style="background:;">
+  <h3>NA</h3>
+  <p>Interested in giving it a try?</p>
+
+<ul>
+<li>Visit us on shinyapps.io (<a href="https://sandraezidiegwu.shinyapps.io/cars/">https://sandraezidiegwu.shinyapps.io/cars/</a>)</li>
+</ul>
+
+<p>For more questions and to learn more, feel free to contact us via email @ (<a href="mailto:sandraezidiegwu@gmail.com">sandraezidiegwu@gmail.com</a>)</p>
+
+</article>
+
+<article class="custom" id="slide-6" style="background:;">
+  <h3>NA</h3>
+  
+</article>
+
+  </section>
+</body>
+  <!-- LOAD JAVASCRIPTS  -->
+	<script src='libraries/frameworks/html5slides/default/slides.js'></script>
+	<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+	</html>
