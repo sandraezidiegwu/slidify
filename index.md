@@ -58,29 +58,8 @@ The simple design of this app makes it easy to follow
 
 It's never been this easy!
 
-```r
-library(png)
-```
+![Shiny Snapshot](/Users/sandraezidiegwu/Desktop/shinyapp.png)
 
-```
-## Error in library(png): there is no package called 'png'
-```
-
-```r
-img <- readPNG("/Users/sandraezidiegwu/Desktop/shinyapp.png")
-```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "readPNG"
-```
-
-```r
-grid.raster(img)
-```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "grid.raster"
-```
 
 --- .custom
 
