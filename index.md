@@ -13,14 +13,6 @@ knit        : slidify::knit2slides
 ## Rental Car Use made Simple
 With the use of this app, one can easily navigate through their preferred rental car choices. 
 
-```r
-library(shiny)
-library(ggplot2)
-library(dplyr)
-car.options <- select(mpg, manufacturer, model, year, cty, hwy, class)
-head(car.options) 
-```
-
 ```
 ## Source: local data frame [6 x 6]
 ## 
@@ -34,15 +26,19 @@ head(car.options)
 ## 6         audi    a4  1999    18    26 compact
 ```
 
---- .custom
+---
 
+## Inspiration
 Often times you find that you are stuck with car options that don't necessarily fit you need
 
 ![Car Rental Figure](http://cdn.moneycrashers.com/wp-content/uploads/2014/07/zipcar-cars.png)
 
 
---- &custom .custom
+Image Source: www.google.come/images
 
+---
+
+## App Qualities
 With this app you would realize the following;
 - Ease of access to car options
 - Peace of mind in car renting
@@ -50,22 +46,19 @@ With this app you would realize the following;
 
 All these great benefits at the click of your mouse at home!
 
---- .custom
+---
 
+## Design Simplicity
 The simple design of this app makes it easy to follow
 - With just two slider buttons 
 - A drop down choice menu 
 
 It's never been this easy!
 
-![Shiny Snapshot](/Users/sandraezidiegwu/Desktop/shinyapp.png)
+---
 
-
---- .custom
-
+## We'd love to have you be a part
 Interested in giving it a try?
 - Visit us on shinyapps.io (https://sandraezidiegwu.shinyapps.io/cars/)
 
 For more questions and to learn more, feel free to contact us via email @ (sandraezidiegwu@gmail.com)
-
---- .custom
